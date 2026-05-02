@@ -1,12 +1,15 @@
-# Ignore Kaggle-specific input/output folders
-input/
-output/
-
-# Ignore large data files
-*.csv
+# Dataset files
 *.xlsx
-*.zip
+*.csv
 
-# Ignore Python cache
-__pycache__/
+# Model artifacts
+*.h5
+*.pt
+*.pkl
+
+# Notebook checkpoints
 .ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
