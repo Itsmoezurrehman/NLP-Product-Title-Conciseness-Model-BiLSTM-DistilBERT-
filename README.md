@@ -1,4 +1,4 @@
-# NLP - Product Title Conciseness Classifier
+# NLP - Product Title Conciseness Classifier Model(BiLSTM-DistilBERT)
 
 Deep learning classifier for e-commerce product title conciseness, built for a dataset of ~36k product listings from Malaysia, Philippines, and Singapore. Framed as a regression task — the model outputs a probability in [0, 1] and is evaluated on RMSE.
 
